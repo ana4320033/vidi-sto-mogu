@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vidi što mogu</title>
+    <link>http://161.53.65.65:1313/</link>
+    <description>Recent content on Vidi što mogu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://161.53.65.65:1313/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

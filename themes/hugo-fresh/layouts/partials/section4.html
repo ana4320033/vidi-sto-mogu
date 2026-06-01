@@ -1,0 +1,58 @@
+{{- $section4 := .Site.Params.section4 }}
+{{- $title    := index $section4 "title" }}
+{{- $subtitle := index $section4 "subtitle" }}
+{{- $tiles    := index $section4 "tiles" }}
+{{- $image    := index $section4 "image" }}
+<section class="section section-feature-grey is-medium" id="section4">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <div class="divider is-centered"></div>
+      
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="feature-card has-text-left revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h3 class="title is-4">Cilj</h3>
+            </div>
+            <div class="card-text">
+              <br>
+              Projekt su osmislile studentice Edukacijske rehabilitacije, Edukacijsko-rehabilitacijskog fakulteta u Zagrebu, koje su tijekom vježbi iz kolegija Profesionalna rehabilitacija razvile ideju koja je već sljedeće akademske godine krenula u provedbu. Cilj projekta je povećati zaposlenost osoba s invaliditetom kroz educiranje i senzibiliziranje poslodavaca. Vjerujemo da poslodavci mogu ostvariti višestruke koristi jer su osobe s invaliditetom vrijedni i pouzdani radnici, a njihovo zapošljavanje donosi i brojne državne poticaje.
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="feature-card has-text-left revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h3 class="title is-4">Ideja</h3>
+            </div>
+            <div class="card-text">
+              <br>
+              Naša ideja temelji se na slanju PR paketa poslodavcima i gospodarskim komorama. U tim se paketima nalaze proizvodi koje izrađuju učenici s teškoćama u razvoju koji pohađaju Centar za odgoj i obrazovanje Zagorska, Centar za odgoj i obrazovanje Dubrava i Centar za autizam. Na taj način izravno povezujemo učenike – buduće radnike – s potencijalnim poslodavcima.
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="feature-card has-text-left revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+              <h3 class="title is-4">PR paketi</h3>
+            </div>
+            <div class="card-text">
+              <br>
+              Uz proizvode, PR paket uključuje i letak s QR kodom koji vodi na našu internetsku stranicu, gdje su jasno navedeni svi zakonski poticaji i prednosti vezani za zapošljavanje osoba s invaliditetom. Cilj nam je informirati poslodavce bez potrebe da sami ulažu vrijeme i trud u traženje informacija na internetu, koji je često prezasićen nepreglednim člancima i zakonima. Na ovaj način činimo proces informiranja bržim i učinkovitijim te doprinosimo stvaranju prilika za radnu integraciju osoba s invaliditetom.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="has-text-centered" style="margin-top: 3rem;">
+    <img class="pushed-image" style="width: 40%;" src="{{ printf "images/%s" $image | relURL }}">
+    <p style="margin-top: 1rem; font-size: 0.9rem; color: #555;">
+      U projektu sudjeluju studentice Pia Paska-Jaklin, Vana Marović, Ana Ramov, Marija Maraš, Magdalena Martini i Lucija Mužinić<br>pod mentorstvom prof. dr. sc. Lelie Kiš-Glavaš i asistentice Svee Kučinić, mag. rehab. educ.
+    </p>
+  </div>
+</section>

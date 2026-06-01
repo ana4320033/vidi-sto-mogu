@@ -1,0 +1,313 @@
+/*! _cards.scss v1.0.0 | Commercial License | built on top of bulma.io/Bulmax */
+
+/* ==========================================================================
+Cards and Card content styles
+========================================================================== */
+
+// Feature Card
+.feature-card {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 0 auto;
+    .card-title h3 {
+        font-family: 'Arial', sans-serif;
+        padding: 25px 40px 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+    .card-icon img {
+        height: 120px;
+        margin-top: 20px;
+    }
+    .card-text {
+        font-family: 'Arial', sans-serif;
+        padding: 0 40px;
+        p {
+            color: black;
+        }
+    }
+    .card-action {
+        margin-top: 10px;
+    }
+    &.is-bordered {
+        border: 1px solid $fade-grey;
+    }
+}
+
+.feature-card-wide {
+    width: 1000px;
+    height: 360px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 0 auto;
+    .card-title h3 {
+        font-family: 'Arial', sans-serif;
+        padding: 25px 40px 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+    .card-icon img {
+        height: 120px;
+        margin-top: 20px;
+    }
+    .card-text {
+        font-family: 'Arial', sans-serif;
+        padding: 0 40px;
+        p {
+            color: black;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 1.2rem;
+            li {
+                color: black;
+                padding: 3px 0;
+            }
+        }
+    }
+    .card-action {
+        margin-top: 10px;
+    }
+    &.is-bordered {
+        border: 1px solid $fade-grey;
+    }
+}
+
+// Feature Card Wide Short
+.feature-card-wide-short-0 {
+    width: 1000px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 0 auto;
+    .card-title h3 {
+        font-family: 'Arial', sans-serif;
+        padding: 25px 40px 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+    .card-icon img {
+        height: 120px;
+        margin-top: 20px;
+    }
+    .card-text {
+        font-family: 'Arial', sans-serif;
+        padding: 0 40px;
+        p {
+            color: black;
+        }
+    }
+    .card-action {
+        margin-top: 10px;
+    }
+    &.is-bordered {
+        border: 1px solid $fade-grey;
+    }
+}
+
+.feature-card-wide-short-1 {
+    width: 1000px;
+    height: auto;
+    padding-bottom: 56px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 0 auto;
+    .card-title h3 {
+        font-family: 'Arial', sans-serif;
+        padding: 36px 40px 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+    .card-icon img {
+        height: 120px;
+        margin-top: 20px;
+    }
+    .card-text {
+        font-family: 'Arial', sans-serif;
+        padding: 20px 40px 0;
+        p {
+            color: black;
+        }
+        ul {
+            list-style: disc;
+            padding-left: 1.2rem;
+            li {
+                color: black;
+                padding: 3px 0;
+            }
+        }
+    }
+    .card-action {
+        margin-top: 10px;
+    }
+    &.is-bordered {
+        border: 1px solid $fade-grey;
+    }
+}
+
+.feature-card-wide-short-2 {
+    width: 1000px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 0 auto;
+    .card-title h3 {
+        font-family: 'Arial', sans-serif;
+        padding: 25px 40px 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+    .card-icon img {
+        height: 120px;
+        margin-top: 20px;
+    }
+    .card-text {
+        font-family: 'Arial', sans-serif;
+        padding: 0 40px;
+        p {
+            color: black;
+        }
+    }
+    .card-action {
+        margin-top: 10px;
+    }
+    &.is-bordered {
+        border: 1px solid $fade-grey;
+    }
+}
+
+// Feature Card Short Narrow
+.feature-card-narrow-short-1,
+.feature-card-narrow-short-2 {
+    width: 500px;
+    height: auto;
+    padding-bottom: 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 0 auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
+    }
+    .card-title h3 {
+        font-family: 'Arial', sans-serif;
+        padding: 25px 40px 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+    .card-icon img {
+        height: 120px;
+        margin-top: 20px;
+    }
+    .card-text {
+        font-family: 'Arial', sans-serif;
+        padding: 16px 40px 0;
+        strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                color: #333;
+                padding: 3px 0;
+                padding-left: 16px;
+                position: relative;
+                &::before {
+                    content: '•';
+                    position: absolute;
+                    left: 0;
+                    color: inherit;
+                    opacity: 0.5;
+                }
+            }
+        }
+        p {
+            color: black;
+        }
+    }
+    .card-action {
+        margin-top: 10px;
+    }
+    &.is-bordered {
+        border: 1px solid $fade-grey;
+    }
+}
+
+.feature-card-narrow-short-1 { min-height: 140px; }
+.feature-card-narrow-short-2 { min-height: 280px; }
+
+// Hover lift for all feature cards
+.feature-card,
+.feature-card-wide,
+.feature-card-wide-short-0,
+.feature-card-wide-short-1,
+.feature-card-wide-short-2 {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
+    }
+}
+
+// Flex Card
+.flex-card {
+    position: relative;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    &.raised {
+        box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    }
+    .tabs {
+        padding: 15px 0.7rem;
+    }
+    .navtab-content {
+        min-height: 190px;
+        p {
+            padding: 0 0.8rem 20px;
+        }
+    }
+    .navigation-tabs {
+        &.outlined-pills .tabs.tabs-header {
+            &.primary {
+                background-color: $primary;
+            }
+            &.secondary {
+                background-color: $secondary;
+            }
+            &.accent {
+                background-color: $accent;
+            }
+            ul li a {
+                color: $grey-white;
+            }  
+            ul li.is-active a {
+                color: $white;
+                border: 1px solid $white;
+                border-bottom-color: $white !important;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,43 @@
+{{- $section6   := .Site.Params.section6 }}
+{{- if eq $section6 true }}
+{{- $section6 = dict "_" "_" }}
+{{- end }}
+{{- $title      := index $section6 "title" | default "Drop us a line or two "}}
+{{- $subtitle   := index $section6 "subtitle" | default "We'd love to hear from you" }}
+{{- $action     := index $section6 "action" }}
+{{- $method     := index $section6 "method" }}
+{{- $buttonText := index $section6 "buttontext" | default "Send Message" }}
+<section class="section section-light-grey is-medium" id="section6">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+    <div class="content-wrapper">
+      <div class="columns">
+        <div class="column is-6 is-offset-3">
+          <form{{ with $action }} action="{{ . }}"{{end}}{{ with $method }} method="{{ . }}"{{end}}>
+            <div class="columns is-multiline">
+              <div class="column is-12">
+                <textarea class="textarea" name="message" rows="10" placeholder="Napišite nešto..."></textarea>
+              </div>
+              <div class="form-footer has-text-centered mt-10">
+                <button type="submit" class="button is-link" onclick="sendEmail(event)">Pošaljite upit</button>
+                <script>
+                  function sendEmail(event) {
+                    event.preventDefault();
+                    const message = document.querySelector('textarea[name="message"]').value;
+                    const subject = "[Upit] Vidi što mogu";
+                    const mailtoLink = `mailto:vidistomogu@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+                    window.location.href = mailtoLink;
+                  }
+                </script>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

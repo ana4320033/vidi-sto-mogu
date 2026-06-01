@@ -1,0 +1,128 @@
+baseURL: https://vidi-sto-mogu.netlify.app/
+languageCode: en-us
+title: Vidi što mogu
+
+theme: 'hugo-fresh'
+
+ignoreErrors: ["error-disable-taxonomy"]
+
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
+# Disables warnings
+disableKinds:
+- taxonomy
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
+  # preloader: false
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/vsm_logo_small.png
+    link: /
+    # Default width/height. Uncomment if you need to change
+    width: 45
+    height: 5
+  font:
+    name: "Arial"
+    sizes: [400,600]
+    color: black
+  hero:
+    # Main hero title
+    title: Vidi što mogu
+    # Hero subtitle (optional)
+    subtitle: Cilj projekta „Vidi što mogu“ je povećati zaposlenost osoba s invaliditetom putem educiranja i senzibiliziranja poslodavaca. Naša ideja temelji se na slanju PR paketa poslodavcima i gospodarskim komorama. U tim se paketima nalaze proizvodi koje izrađuju učenici s teškoćama u razvoju. Na taj način izravno povezujemo učenike – buduće radnike – s potencijalnim poslodavcima.
+    # Hero image (from static/images/___)
+    image: logos/vsm_logo_big.png
+    # Footer logos (from static/images/logos/clients/*.svg)
+    # urls are optional
+    clientlogos:
+      - logo: erf_logo
+        url: https://www.erf.hr/
+      - logo: edureha_logo
+        url: https://www.erf.unizg.hr/studiranje/akademski_zivot/studentske_organizacije/udruga_edureha
+      - logo: czoo_zagorska_logo
+        url: https://ss-czoio.hr/
+      - logo: czoo_dubrava_logo
+        url: https://centardubrava.hr/
+      - logo: cat_logo
+        url: https://centarzaautizam.hr/
+      - logo: macan_logo
+        url: https://www.macan.hr/
+    # - logo: tribe
+    #   url: https://stefma.github.io/hugo-fresh/
+    # - logo: kromo
+    #   url: https://github.com/StefMa/hugo-fresh
+    # - logo: infinite
+    #   url: https://hugo-fresh.vercel.app/
+    # - logo: gutwork
+    #   url: https://bulma.io/
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Dobrobiti za poslodavce
+    url: "#section1"
+  - title: Potpore za poslodavce
+    url: "#section2"
+  - title: O projektu
+    url: "#section4"
+  - title: PR paketi
+    url: "#section3"
+  - title: Sudionici projekta
+    url: "#section5"
+  - title: Kontakt
+    url: "#section6"
+  sidebar:
+    # Logo (from static/images/logos/___.svg)
+    logo: vsm_logo_small
+    sections:
+    - title: Dobrobiti za poslodavce
+      icon: envelope
+    - title: Potpore za poslodavce
+      icon: image
+    - title: PR paketi
+      icon: cog
+    - title: O projektu
+      icon: user
+    - title: Sudionici projekta
+      icon: cog
+    - title: Kontakt
+      icon: cog
+  section1:
+    title: Dobrobiti za poslodavce
+  section2:
+    title: Potpore za poslodavce
+  section3:
+    title: PR paketi
+  section4:
+    title: O projektu
+    image: illustrations/group_photo.jpeg
+  section5:
+    title: Sudionici projekta
+  section6:
+    title: Kontakt
+    subtitle: Javite nam se
+    buttonText: Pošaljite upit
+  footer:
+    # Logo (from static/images/logos/___)
+    logo: vsm_logo_big3.png
+    # Social Media Title
+    logo2: erf_logo_full.png
+    quicklinks:
+      column1:
+        title: "Kontakt"
+        links:
+        - text: vidistomogu@gmail.com
+          link: mailto:vidistomogu@gmail.com
+      column2:
+        title: "ERF"
+        links:
+        - text: Sveučilište u Zagrebu
+          link: https://www.unizg.hr/
+        - text: Edukacijsko-rehabilitacijski fakultet
+          link: https://www.erf.unizg.hr/

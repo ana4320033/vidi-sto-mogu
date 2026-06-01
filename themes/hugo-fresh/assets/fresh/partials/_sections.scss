@@ -1,0 +1,126 @@
+/* ==========================================================================
+Section Styles
+========================================================================== */
+
+//Sections
+.section {
+    &.section-light-grey {
+        background-color: $light-grey;
+    }
+    &.section-feature-grey {
+        background-color: $section-grey;
+    }
+    &.section-secondary {
+        background-color: $secondary;
+    }
+    &.section-half {
+        height: 75vh !important;
+    }
+    .title, .subtitle {
+        font-family: 'Arial', sans-serif;
+
+    }
+    .subtitle {
+        &.is-muted {
+            color: black;
+        }
+    }
+}
+
+//Titles
+.title-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    .title, .subtitle {
+        font-family: 'Arial', sans-serif;
+
+    }
+    .subtitle {
+        &.is-muted {
+            color: black;
+        }
+    }
+}
+
+//Divider
+.divider {
+    height: 3px;
+    border-radius: 50px;
+    background: $secondary;
+    width: 60px;
+    &.is-centered {
+        margin: 0 auto;
+    }
+}
+
+//Wrapper
+.content-wrapper {
+    padding: 60px 0;
+    border-radius: 16px;
+}
+
+
+#section3 .content-wrapper {
+    margin-bottom: 32px;
+}
+
+
+#section2 .content-wrapper {
+    padding: 40px 0;
+}
+
+#section2 .feature-card-wide {
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+#section2 .section2-gap-md {
+    padding: 60px 0 12px;
+}
+
+//Pulled image
+img.pushed-image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: auto;
+}
+
+#section1 {
+    padding-bottom: 1rem !important;
+}
+
+#section2 {
+    padding-top: 1rem !important;
+}
+
+#section4 {
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+}
+
+#section5 {
+    padding-top: 5rem;
+}
+
+//Icon box
+.media.icon-box {
+    border-top: none !important;
+    .media-content .content p {
+        span {
+            display: block;
+        }
+        .icon-box-title {
+            color: $blue-grey;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        .icon-box-text {
+            color: $title-grey;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+    }
+}

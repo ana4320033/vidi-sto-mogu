@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <script src="https://cdn.userway.org/widget.js" data-account="oIOCHJzbiU"></script>
+    <style>
+      #userwayAccessibilityIcon { left: auto !important; right: 0 !important; top: 3.5rem !important; position: fixed !important; margin: 0 !important; padding: 0 !important; }
+    </style>
+    {{ partial "meta.html" . }}
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    {{ partial "css.html" . }}
+  </head>
+  <body>
+    {{ if ne .Site.Params.preloader false }}
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+    {{ end }}
+
+    {{ block "main" . }}
+    {{ end }}
+
+    <!-- Back To Top Button -->
+    <div id="backtotop"><a href="#"></a></div>
+
+    {{ partial "javascript.html" . }}
+  </body>
+</html>

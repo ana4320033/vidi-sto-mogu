@@ -1,0 +1,317 @@
+{{- $section2 := .Site.Params.section2 }}
+{{- $title    := index $section2 "title" }}
+<section class="section section-feature-grey is-medium" id="section2">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper section2-gap-sm">
+      <div class="columns is-centered">
+        <div class="feature-card-wide has-text-left revealOnScroll delay-1" data-animation="fadeInLeft">
+          <div class="card-title">
+            <h3 class="title is-4">Tko ima pravo na potporu?</h3>
+          </div>
+          <br/>
+          <div class="card-text">
+            <strong>Poslodavci koji:</strong>
+            <ul>
+              <li><strong>upišu zaposlene osobe s invaliditetom u Očevidnik zaposlenih osoba s invaliditetom, pri prijavi zaposlenika u evidenciju Hrvatskog zavoda za mirovinsko osiguranje</strong></li>
+              <li><strong>nemaju duga prema radnicima i/ili prema državi</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper section2-gap-md">
+      <div class="columns is-centered">
+        <div class="feature-card-accordion has-text-left revealOnScroll delay-1" data-animation="fadeInLeft">
+          <div class="card-title">
+            <h3 class="title is-4">Na koju potporu imam pravo?</h3>
+          </div>
+          <div class="card-text">
+            <br>
+
+            <details class="subvencija-item">
+              <summary><strong>1. Subvencija plaće osobe s invaliditetom</strong></summary>
+              <div class="subvencija-detail">
+                <p>Subvencija plaće za osobu s invaliditetom iznosi <strong>10 % do 70 % osnovice</strong> (ovisno o procjeni radne učinkovitosti).</p>
+                <p><em>Budući da je minimalna plaća 970 € → 2.910,00 € je maksimalna osnovica za izračun subvencije plaće.</em></p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Poslodavac naručuje zaposlenu osobu s invaliditetom na uslugu Procjene radne učinkovitosti, pri mjesno nadležnom Centru za profesionalnu rehabilitaciju. Centri su dostupni u Zagrebu, Splitu, Rijeci i Osijeku.</li>
+                  <li>Centar za profesionalnu rehabilitaciju određuje postotak visine subvencije plaće.</li>
+                </ul>
+                <a href="https://zosi.hr/subvencija-place-osobe-s-invaliditetom/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>2. Sufinanciranje troškova obrazovanja</strong></summary>
+              <div class="subvencija-detail">
+                <p>Zavod ovisno o veličini poslodavca sufinancira <strong>50 % do 70 % troškova obrazovanja</strong>, a u troškove obrazovanja se ubrajaju trošak upisnine, te trošak prijevoza osobe s invaliditetom i osobe koja joj je pratitelj.</p>
+                <p><strong>Postotak sufinanciranja iznosi od 50 % za velike poduzetnike, 60 % za srednje poduzetnike, te 70 % za male poduzetnike.</strong></p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Zahtjev za sufinanciranje troškova obrazovanja podnosi se Zavodu za vještačenje, profesionalnu rehabilitaciju i zapošljavanje osoba s invaliditetom.</li>
+                </ul>
+                <a href="https://zosi.hr/sufinanciranje-troskova-obrazovanja/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>3. Sufinanciranje troškova za prilagodbu radnog mjesta – arhitektonska prilagodba</strong></summary>
+              <div class="subvencija-detail">
+                <p>Poticaj se isplaćuje u visini stvarnih troškova prilagodbe, ali najviše <strong>do 40 osnovica</strong> za jednu osobu s invaliditetom. Osnovica izračuna je <strong>minimalna bruto plaća</strong> u tekućoj godini.</p>
+                <p><em>40 osnovica × 970 € = 38.800 € – maksimalni iznos subvencije troškova za prilagodbu radnog mjesta</em></p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Vrstu i opseg potrebne prilagodbe procjenjuje Centar za profesionalnu rehabilitaciju, putem usluge broj 9 Izrada plana prilagodbe radnog mjesta i radnog okoliša (arhitektonska prilagodba), te potrebne prilagodbe opreme i sredstva za rad (tehnička prilagodba).</li>
+                  <li>Poslodavac naručuje zaposlenu osobu s invaliditetom na uslugu, pri mjesno nadležnom centru. Centri su dostupni u Zagrebu, Splitu, Rijeci i Osijeku.</li>
+                </ul>
+                <a href="https://zosi.hr/sufinanciranje-troskova-za-prilagodbu-radnog-mjesta-arhitektonska-prilagodba/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>4. Sufinanciranje troškova za prilagodbu uvjeta rada – tehnička prilagodba</strong></summary>
+              <div class="subvencija-detail">
+                <p>Poticaj se isplaćuje u visini stvarnih troškova prilagodbe, ali najviše do <strong>40 osnovica</strong> za jednu osobu s invaliditetom. Osnovica izračuna je <strong>minimalna bruto plaća</strong> u tekućoj godini.</p>
+                <p><em>40 osnovica × 970 € = 38.800 € – maksimalni iznos subvencije troškova za prilagodbu uvjeta rada</em></p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Opseg potrebne prilagodbe procjenjuje Centar za profesionalnu rehabilitaciju, putem usluge broj 9 Izrada plana prilagodbe radnog mjesta i radnog okoliša (arhitektonska prilagodba), te potrebne prilagodbe opreme i sredstva za rad (tehnička prilagodba).</li>
+                  <li>Poslodavac naručuje zaposlenu osobu s invaliditetom na uslugu, pri mjesno nadležnom centru. Centri su dostupni u Zagrebu, Splitu, Rijeci i Osijeku.</li>
+                </ul>
+                <a href="https://zosi.hr/sufinanciranje-troskova-za-prilagodbu-uvjeta-rada/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>5. Subvencija u visini uplaćenog doprinosa za obvezno zdravstveno osiguranje</strong></summary>
+              <div class="subvencija-detail">
+                <p>Osnovica za izračun poticaja iznosi <strong>75 % osnovice uplaćenog doprinosa za obvezno zdravstveno osiguranje za zaposlenu osobu s invaliditetom</strong>.</p>
+                <p><em>Ako je osnovica = minimalna bruto plaća (970 €) → subvencija = 0,75 × 970 = 727,50 €</em><br>
+                <em>Ako osoba ima bruto I = 1.500 € → subvencija = 0,75 × 1.500 = 1.125 €</em><br>
+                <em>Ako poslodavac koristi maksimalnu dopuštenu osnovicu (3 minimalne plaće = 2.910 €) → subvencija = 0,75 × 2.910 = 2.182,50 €</em></p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Zahtjev se podnosi Zavodu za vještačenje, profesionalnu rehabilitaciju i zapošljavanje osoba s invaliditetom.</li>
+                </ul>
+                <a href="https://zosi.hr/subvencija-u-visini-uplacenog-doprinosa-za-obvezno-zdravstveno-osiguranje/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>6. Financiranje troškova stručne podrške</strong></summary>
+              <div class="subvencija-detail">
+                <p>Vrstu i opseg potrebne stručne podrške procjenjuje Centar za profesionalnu rehabilitaciju, putem usluge broj 6 Stručna podrška i praćenje na određenom radnom mjestu i u radnom okruženju.</p>
+                <p>Poslodavac naručuje zaposlenu osobu s invaliditetom na uslugu, pri mjesno nadležnom centru. Centri su dostupni u Osijeku, Rijeci, Splitu i Zagrebu.</p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Zahtjev za financiranje stručne podrške podnosi se Zavodu za vještačenje, profesionalnu rehabilitaciju i zapošljavanje osoba s invaliditetom.</li>
+                  <li>Potrebno je priložiti dokumentaciju:
+                    <ol>
+                      <li>Obrazac Z-STP</li>
+                      <li>Obrazac obračuna satnice stručne podrške – Obrazac OS-STP-1</li>
+                      <li>Obrazac izvješća o izvršenju mjesečne satnice – Obrazac IMS-1</li>
+                    </ol>
+                  </li>
+                </ul>
+                <a href="https://zosi.hr/financiranje-troskova-strucne-podrske/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>7. Potpora za održivost samozapošljavanja osoba s invaliditetom</strong></summary>
+              <div class="subvencija-detail">
+                <p>Osoba s invaliditetom koja se samozapošljava može na svoje ime ostvariti pravo na potporu za održivost samozapošljavanja osoba s invaliditetom.</p>
+                <p><strong><em>Potpora za samozapošljavanje iznosi 132,72 € mjesečno.</em></strong></p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Zahtjev za potporu za održivost samozapošljavanja osoba s invaliditetom podnosi se na Obrascu Z-POS.</li>
+                </ul>
+                <a href="https://zosi.hr/potpora-za-odrzivost-samozaposljavanja-osoba-s-invaliditetom-2/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>8. Sufinanciranje troškova prijevoza osoba s invaliditetom</strong></summary>
+              <div class="subvencija-detail">
+                <p>Poticaj se ostvaruje za sufinanciranje troškova prijevoza osoba s invaliditetom u svrhu dolaska na posao i odlaska s posla te za potrebe dolaska na mjesto obavljanja djelatnosti i odlaska s mjesta obavljanja djelatnosti.</p>
+                <p>Trošak prijevoza nadoknađuje se <strong>u visini stvarnih troškova</strong> prijevoza osobe s invaliditetom.</p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Zahtjev za sufinanciranje troškova prijevoza osoba s invaliditetom uključuje sljedeću dokumentaciju:
+                    <ol>
+                      <li>Obrazac Z-TRP,</li>
+                      <li>Obrazac obračuna troškova prijevoza na mjesto rada OT-PMR;</li>
+                      <li>Obrazac obračuna troškova prijevoza za obavljanje djelatnosti OT-POD;</li>
+                      <li>Izjava da nema organiziranog javnog prijevoza Obrazac I-TRP-MR;</li>
+                      <li>Izjava da nema organiziranog redovitog javnog prijevoza Obrazac I-TRP-OD.</li>
+                    </ol>
+                  </li>
+                </ul>
+                <a href="https://zosi.hr/sufinanciranje-troskova-prijevoza-osoba-s-invaliditetom/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>9. Sufinanciranje troškova rada stručnih radnika i radnih instruktora u integrativnim radionicama i zaštitnim radionicama</strong></summary>
+              <div class="subvencija-detail">
+                <p>Poticaj pokriva trošak rada stručnih radnika i radnih instruktora do propisanog minimalnog broja zaposlenih u integrativnim i zaštitnim radionicama.</p>
+                <p><strong>Za svakog stručnog radnika sufinancira se 100 % osnovice za troškove rada te za radnog instruktora sufinancira se 50 % iste osnovice.</strong></p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Zahtjev za sufinanciranje troškova rada stručnih radnika i radnih instruktora u zaštitnim i integrativnim radionicama uključuje:
+                    <ol>
+                      <li>Obrazac Z-TRSO i</li>
+                      <li>Tablicu izračuna TRSO-1.</li>
+                    </ol>
+                  </li>
+                </ul>
+                <a href="https://zosi.hr/sufinanciranje-troskova-rada-strucnih-radnika-i-radnih-instruktora-u-integrativnim-radionicama-i-zastitnim-radionicama/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>10. Pravo na novčanu nagradu za zapošljavanje iznad propisane zakonske obveze</strong></summary>
+              <div class="subvencija-detail">
+                <p>Poticaj mogu ostvariti:</p>
+                <ul>
+                  <li>poslodavci koji zapošljavaju više osoba s invaliditetom od propisane kvote</li>
+                  <li>poslodavci s manje od 20 zaposlenih koji zapošljavaju osobe s invaliditetom</li>
+                </ul>
+                <p><strong>Naknada iznosi 30 % minimalne bruto plaće za svaku osobu s invaliditetom iznad propisane kvote.</strong></p>
+                <p><em>30 % × 970 € = 291 € – novčana nagrada iznosi: 291 € po svakoj osobi s invaliditetom iznad kvote</em></p>
+                <p><strong>KAKO?</strong></p>
+                <p><strong>Zahtjev za novčanu nagradu podnosi se na:</strong></p>
+                <ol>
+                  <li>Obrascu Z-Nagrada, uz</li>
+                  <li>Dokaz o podmirenju novčanih obveza prema državi ili radnicima po bilo kojoj osnovi.</li>
+                </ol>
+                <a href="https://zosi.hr/pravo-na-novcanu-nagradu-za-zaposljavanje-iznad-propisane-zakonske-obveze/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>11. Posebna sredstva za poslodavce na otvorenom tržištu rada</strong></summary>
+              <div class="subvencija-detail">
+                <p>Sredstva su namijenjena razvoju novih tehnologija i poslovnih procesa radi zapošljavanja i zadržavanja osoba s invaliditetom. Dodjeljuju se putem javnog natječaja.</p>
+                <p>Prijaviti se mogu:</p>
+                <ul>
+                  <li>poslodavci na otvorenom tržištu rada (obveznici poreza na dohodak ili dobit)</li>
+                  <li>osobe s invaliditetom koje su samozaposlene</li>
+                  <li>neprofitne organizacije koje obavljaju dio gospodarske djelatnosti</li>
+                </ul>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Poticaj se može ostvariti na osnovu prijave na <strong>raspisani javni natječaj za dodjelu posebnih sredstava.</strong></li>
+                  <li><strong>Uvjete i način dodjele posebnih sredstava određuje Upravno vijeće Zavoda.</strong></li>
+                </ul>
+                <a href="https://zosi.hr/posebna-sredstva-za-razvoj-novih-tehnologija-i-poslovnih-procesa-u-cilju-zaposljavanja-i-odrzavanja-zaposlenosti-osoba-s-invaliditetom-za-poslodavce-na-otvorenom-trzistu-rada/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+            <details class="subvencija-item">
+              <summary><strong>12. Posebna sredstva za zaštitne i integrativne radionice</strong></summary>
+              <div class="subvencija-detail">
+                <p>Poticaj je namijenjen zaštitnim i integrativnim radionicama.</p>
+                <p><strong>KAKO?</strong></p>
+                <ul>
+                  <li>Prijava se vrši po raspisivanju javnog natječaja za dodjelu posebnih sredstava.</li>
+                  <li>Uvjete i način dodjele posebnih sredstava određuje Upravno vijeće Zavoda.</li>
+                </ul>
+                <a href="https://zosi.hr/posebna-sredstva-za-razvoj-novih-tehnologija-i-poslovnih-procesa-u-cilju-zaposljavanja-i-odrzavanja-zaposlenosti-u-zastitnim-radionicama-ili-integrativnim-radionicama/" target="_blank" class="subvencija-izvor">Izvor: ZOSI</a>
+              </div>
+            </details>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .feature-card-accordion {
+    width: 1000px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .feature-card-accordion:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
+  }
+  .feature-card-accordion .card-title h3 {
+    font-family: 'Arial', sans-serif;
+    padding: 25px 40px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+  }
+  .feature-card-accordion .card-text {
+    font-family: 'Arial', sans-serif;
+    padding: 0 40px;
+    color: black;
+  }
+
+  .subvencija-item {
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+  }
+  .subvencija-item summary {
+    cursor: pointer;
+    padding: 0.9rem 1rem;
+    list-style: none;
+    color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.95rem;
+  }
+  .subvencija-item summary::-webkit-details-marker { display: none; }
+  .subvencija-item summary::after {
+    content: '›';
+    font-size: 1.3rem;
+    color: #888;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+    margin-left: 0.75rem;
+  }
+  .subvencija-item[open] > summary::after {
+    transform: rotate(90deg);
+  }
+  .subvencija-item[open] > summary {
+    background: #eef0f3;
+  }
+  .subvencija-item summary:hover { background: #eef0f3; }
+
+  .subvencija-detail {
+    padding: 0.75rem 1rem 1rem;
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    border-top: 1px solid #e0e0e0;
+  }
+  .subvencija-detail p { margin-bottom: 0.5rem; }
+  .subvencija-detail ul, .subvencija-detail ol {
+    margin: 0.3rem 0 0.5rem 1.2rem;
+  }
+  .subvencija-izvor {
+    font-size: 0.85rem;
+    color: #3273dc;
+    display: inline-block;
+    margin-top: 0.6rem;
+  }
+</style>
